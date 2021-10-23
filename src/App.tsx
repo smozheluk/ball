@@ -1,8 +1,11 @@
 import React from 'react';
+import {Ball} from "./components/Ball/Ball";
 
 export const App = () => {
   return (
-      <div>APP</div>
+      <div>
+        <Ball />
+      </div>
   )
 }
 
